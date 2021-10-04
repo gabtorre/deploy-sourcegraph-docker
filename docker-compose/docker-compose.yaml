@@ -69,11 +69,7 @@ services:
   # service.
   sourcegraph-frontend-0:
     container_name: sourcegraph-frontend-0
-<<<<<<< HEAD
-    image: 'index.docker.io/sourcegraph/frontend:3.31.2@sha256:c90d487dbfe943e25505bfd1100d97a7baf05c4191d4037e78d1c13e9b0632ce'
-=======
     image: 'index.docker.io/sourcegraph/frontend:3.32.0@sha256:abb536c01df734e93d4aa0fc2bd15cd24f6629cdf2c7f884bf5600a69495c3af'
->>>>>>> v3.32.0
     cpus: 4
     mem_limit: '8g'
     environment:
